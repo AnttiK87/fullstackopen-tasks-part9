@@ -28,7 +28,7 @@ const addPatient = (entry: NewPatientEntry): PatientEntry => {
   patients.push(newPatientEntry);
 
   fs.writeFileSync(
-    "./data/patients.json", // Oikea polku tiedostoon
+    "./data/patients.json",
     `${JSON.stringify(patients, null, 2)}`
   );
 

@@ -54,5 +54,13 @@
     "ssn": "123456-1234",
     "dateOfBirth": "1984-04-17",
     "gender": "female"
+  },
+  {
+    "id": "acaf6fb0-aaf6-11ef-96d5-6dabfac34b73",
+    "name": "Matti Meikäläinen",
+    "occupation": "software developer",
+    "ssn": "123456-1234",
+    "dateOfBirth": "2000-01-01",
+    "gender": "other"
   }
 ]
