@@ -55,7 +55,6 @@ export const bmiCalculator = (height: number, weight: number): BmiValues => {
   };
 };
 
-// Tarkista, onko koodia ajettu suoraan
 if (require.main === module) {
   try {
     const { height, weight } = parseBmiArguments(process.argv);
