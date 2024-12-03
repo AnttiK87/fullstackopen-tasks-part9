@@ -13,7 +13,6 @@ router.get("/", (_req, res: Response<NonSensitivePatientEntry[]>) => {
 const newPatientParser = (req: Request, _res: Response, next: NextFunction) => {
   try {
     NewPatientSchema.parse(req.body);
-    console.log(req.body);
     next();
   } catch (error: unknown) {
     next(error);
@@ -40,7 +39,9 @@ router.post(
     req: Request<unknown, unknown, NewPatientEntry>,
     res: Response<NewPatientEntry>
   ) => {
+    console.log("req");
     const addedEntry = patientService.addPatient(req.body);
+    console.log(res.json(addedEntry));
     res.json(addedEntry);
   }
 );

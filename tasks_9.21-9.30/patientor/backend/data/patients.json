@@ -1,0 +1,190 @@
+[
+  {
+    "name": "John McClane",
+    "dateOfBirth": "1986-07-09",
+    "ssn": "090786-122X",
+    "gender": "male",
+    "occupation": "New york city cop",
+    "id": "d2773336-f723-11e9-8f0b-362b9e155667",
+    "entries": [
+      {
+        "id": "d811e46d-70b3-4d90-b090-4535c7cf8fb1",
+        "date": "2015-01-02",
+        "type": "Hospital",
+        "specialist": "MD House",
+        "diagnosisCodes": ["S62.5"],
+        "description": "Healing time appr. 2 weeks. patient doesn't remember how he got the injury.",
+        "discharge": {
+          "date": "2015-01-16",
+          "criteria": "Thumb has healed."
+        }
+      }
+    ]
+  },
+  {
+    "name": "Martin Riggs",
+    "dateOfBirth": "1979-01-30",
+    "ssn": "300179-77A",
+    "gender": "male",
+    "occupation": "Cop",
+    "id": "d2773598-f723-11e9-8f0b-362b9e155667",
+    "entries": [
+      {
+        "id": "fcd59fa6-c4b4-4fec-ac4d-df4fe1f85f62",
+        "date": "2019-08-05",
+        "type": "OccupationalHealthcare",
+        "specialist": "MD House",
+        "employerName": "HyPD",
+        "diagnosisCodes": ["Z57.1", "Z74.3", "M51.2"],
+        "description": "Patient mistakenly found himself in a nuclear plant waste site without protection gear. Very minor radiation poisoning.",
+        "sickLeave": {
+          "startDate": "2019-08-05",
+          "endDate": "2019-08-28"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Hans Gruber",
+    "dateOfBirth": "1970-04-25",
+    "ssn": "250470-555L",
+    "gender": "other",
+    "occupation": "Technician",
+    "id": "d27736ec-f723-11e9-8f0b-362b9e155667",
+    "entries": [
+      {
+        "id": "60f0ad90-b15f-11ef-934b-272b4bdf7acc",
+        "specialist": "John McClane",
+        "date": "1988-12-24",
+        "description": "Probably dead!",
+        "diagnosisCodes": ["M24.2"],
+        "type": "HealthCheck",
+        "healthCheckRating": 3
+      }
+    ]
+  },
+  {
+    "name": "Dana Scully",
+    "dateOfBirth": "1974-01-05",
+    "ssn": "050174-432N",
+    "gender": "female",
+    "occupation": "Forensic Pathologist",
+    "id": "d2773822-f723-11e9-8f0b-362b9e155667",
+    "entries": [
+      {
+        "id": "b4f4eca1-2aa7-4b13-9a18-4a5535c3c8da",
+        "date": "2019-10-20",
+        "specialist": "MD House",
+        "type": "HealthCheck",
+        "description": "Yearly control visit. Cholesterol levels back to normal.",
+        "healthCheckRating": 0
+      },
+      {
+        "id": "fcd59fa6-c4b4-4fec-ac4d-df4fe1f85f62",
+        "date": "2019-09-10",
+        "specialist": "MD House",
+        "type": "OccupationalHealthcare",
+        "employerName": "FBI",
+        "description": "Prescriptions renewed."
+      },
+      {
+        "id": "37be178f-a432-4ba4-aac2-f86810e36a15",
+        "date": "2018-10-05",
+        "specialist": "MD House",
+        "type": "HealthCheck",
+        "description": "Yearly control visit. Due to high cholesterol levels recommended to eat more vegetables.",
+        "healthCheckRating": 1
+      }
+    ]
+  },
+  {
+    "name": "Matti Luukkainen",
+    "dateOfBirth": "1971-04-09",
+    "ssn": "090471-8890",
+    "gender": "male",
+    "occupation": "Digital evangelist",
+    "id": "d2773c6e-f723-11e9-8f0b-362b9e155667",
+    "entries": [
+      {
+        "id": "54a8746e-34c4-4cf4-bf72-bfecd039be9a",
+        "date": "2019-05-01",
+        "specialist": "Dr Byte House",
+        "type": "HealthCheck",
+        "description": "Digital overdose, very bytestatic. Otherwise healthy.",
+        "healthCheckRating": 0
+      }
+    ]
+  },
+  {
+    "id": "2ae64950-a8ca-11ef-b5ba-eb23205b61b3",
+    "name": "Antti Kortelainen",
+    "dateOfBirth": "1987-05-17",
+    "ssn": "123456-1234",
+    "gender": "male",
+    "occupation": "Student",
+    "entries": [
+      {
+        "id": "54a8746e-34c4-4cf4-bf72-bfecd039be9b",
+        "date": "2019-05-17",
+        "specialist": "Dr Dre",
+        "type": "HealthCheck",
+        "description": "Run for yor life.",
+        "healthCheckRating": 2
+      },
+      {
+        "id": "eed2a880-b15e-11ef-934b-272b4bdf7acc",
+        "specialist": "Dr Pepper",
+        "date": "2024-12-02",
+        "description": "Good For Life.",
+        "diagnosisCodes": [],
+        "type": "HealthCheck",
+        "healthCheckRating": 1
+      }
+    ]
+  },
+  {
+    "id": "44483de0-a8ca-11ef-8167-9f5ed95f0ff0",
+    "name": "Henna Kortelainen",
+    "occupation": "Secretary",
+    "ssn": "123456-1234",
+    "dateOfBirth": "1984-04-17",
+    "gender": "female",
+    "entries": [
+      {
+        "id": "54a8746e-34c4-4cf4-bf72-bfecd039be9b",
+        "date": "2019-04-17",
+        "specialist": "Doctor Jones",
+        "type": "HealthCheck",
+        "description": "Clearly a person who loves runnig",
+        "healthCheckRating": 0
+      }
+    ]
+  },
+  {
+    "id": "acaf6fb0-aaf6-11ef-96d5-6dabfac34b73",
+    "name": "Matti Meikäläinen",
+    "occupation": "Software developer",
+    "ssn": "123456-1234",
+    "dateOfBirth": "2000-01-01",
+    "gender": "other",
+    "entries": [
+      {
+        "id": "54a8746e-34c4-4cf4-bf72-bfecd039be9b",
+        "date": "2019-04-17",
+        "specialist": "Dr Pepper",
+        "type": "HealthCheck",
+        "description": "Clearly a person who hates runnig",
+        "healthCheckRating": 3
+      },
+      {
+        "id": "8bddc0b0-b15f-11ef-934b-272b4bdf7acc",
+        "specialist": "Dr. Dre ",
+        "date": "2024-10-09",
+        "description": "Person started running!",
+        "diagnosisCodes": [],
+        "type": "HealthCheck",
+        "healthCheckRating": 2
+      }
+    ]
+  }
+]
