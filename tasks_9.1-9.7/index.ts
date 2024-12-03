@@ -16,11 +16,9 @@ app.get("/hello", (_req, res) => {
 
 app.get("/bmi", (req, res) => {
   try {
-    // Poimi ja yritä muuntaa query-parametrit numeroiksi
     const height = Number(req.query.height);
     const weight = Number(req.query.weight);
 
-    // Tarkista, että arvot ovat kelvollisia
     if (!height || !weight || isNaN(height) || isNaN(weight)) {
       res
         .status(400)
@@ -35,9 +33,8 @@ app.get("/bmi", (req, res) => {
       return;
     }
 
-    // Kutsu BMI-laskinta ja palauta tulos
     const result = bmiCalculator(height, weight);
-    res.json(result); // Lähetä tulos JSON-muodossa
+    res.json(result);
   } catch (error) {
     res.status(500).send({ error: `Something went wrong. ${error}` });
   }
@@ -45,7 +42,6 @@ app.get("/bmi", (req, res) => {
 
 app.post("/exercises", (req, res) => {
   try {
-    // Oletetaan, että req.body sisältää JSON-datan
     const { daily_exercises, target } = req.body as ExerciseInput;
 
     if (
